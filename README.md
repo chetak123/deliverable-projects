@@ -499,13 +499,6 @@ This project demonstrates:
 6. **Build Tools**: Maven for dependency management and build automation
 7. **Logging**: Professional logging practices with SLF4J and Logback
 
-## 📝 License
-
-This project is created for educational purposes.
-
-## 👤 Author
-
-Created as a demonstration of Java and OOP concepts for a library management system assignment.
 
 ---
 
