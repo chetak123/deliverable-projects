@@ -9,6 +9,7 @@ Tests run: 49, Failures: 0, Errors: 0, Skipped: 0
 BUILD SUCCESS
 ```
 
+
 ## Test Coverage Overview
 
 ### 1. **VehicleTest** (5 tests) ✅
