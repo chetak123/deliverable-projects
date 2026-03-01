@@ -1,0 +1,6 @@
+com/smartparking/model/VehicleTest.class
+com/smartparking/service/ParkingServiceTest.class
+com/smartparking/strategy/AllocationStrategyTest.class
+com/smartparking/service/FeeCalculationServiceTest.class
+com/smartparking/event/EventBusTest.class
+com/smartparking/model/ParkingSpotTest.class
