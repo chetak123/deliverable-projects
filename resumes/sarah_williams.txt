@@ -1,0 +1,37 @@
+SARAH WILLIAMS
+DevOps Engineer
+
+sarah.williams@email.com | (555) 234-5678
+
+OBJECTIVE
+DevOps engineer with strong background in infrastructure automation, CI/CD, and cloud platforms.
+Seeking to leverage expertise in Kubernetes and cloud technologies.
+
+CORE COMPETENCIES
+- Container Orchestration: Kubernetes, Docker, Docker Swarm
+- CI/CD: Jenkins, GitLab CI, GitHub Actions, CircleCI
+- Cloud Platforms: AWS, Azure, GCP
+- IaC: Terraform, Ansible, CloudFormation
+- Monitoring: Prometheus, Grafana, ELK Stack
+- Scripting: Python, Bash, PowerShell
+
+EMPLOYMENT HISTORY
+
+Senior DevOps Engineer | Cloud Systems Inc | 2021 - Present
+- Managed Kubernetes clusters serving 1M+ daily users
+- Automated infrastructure provisioning using Terraform
+- Reduced deployment time by 70% with CI/CD pipelines
+
+DevOps Engineer | Tech Startup | 2019 - 2021
+- Built and maintained AWS infrastructure
+- Implemented monitoring and alerting systems
+- Developed Python automation scripts
+
+EDUCATION
+Bachelor of Science in Information Technology
+IT University | 2015 - 2019
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator (CKA)
+- AWS DevOps Engineer Professional
+- HashiCorp Terraform Certified

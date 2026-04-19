@@ -1,0 +1,10 @@
+# LLM and AI
+anthropic>=0.18.0
+
+# File processing
+PyPDF2>=3.0.0
+python-docx>=1.1.0
+reportlab>=4.0.0
+
+# Utilities
+pathlib>=1.0.1
