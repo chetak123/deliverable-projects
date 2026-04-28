@@ -1,15 +1,53 @@
-# LLM Function Calling with File System Tools
+# AI-Powered Resume Matching System
 
-A Python project demonstrating LLM function calling/tool use with file system operations. This project integrates an LLM (Claude by Anthropic) with structured file tools to perform natural language file operations on resume documents.
+A comprehensive Python project demonstrating advanced AI concepts across two milestones:
 
-## 🎯 Learning Objectives
+1. **Milestone 1**: LLM Function Calling with File System Tools
+2. **Milestone 2**: RAG-Based Profile Matching with Semantic Search
 
+This project showcases practical applications of LLMs, vector databases, semantic search, and intelligent document processing for resume-to-job matching.
+
+## 🏆 Project Milestones
+
+### Milestone 1: LLM Function Calling
+LLM-powered file operations using Claude's tool calling capabilities.
+📖 See [QUICKSTART.md](QUICKSTART.md) for Milestone 1 details.
+
+### Milestone 2: RAG-Based Profile Matching ⭐ NEW
+Intelligent resume matching using semantic search and vector databases.
+📖 See [README_MILESTONE2.md](README_MILESTONE2.md) for Milestone 2 details.
+
+## 🎯 Combined Learning Objectives
+
+### Milestone 1
 - ✅ Understand LLM function calling/tool use
 - ✅ Implement structured tool interfaces
 - ✅ Handle file I/O operations programmatically
 - ✅ Parse and validate documents (PDF, DOCX, TXT)
 
-## 📋 Features
+### Milestone 2
+- ✅ Implement document chunking and embedding
+- ✅ Build vector databases for semantic search
+- ✅ Create retrieval pipelines
+- ✅ Understand hybrid search (semantic + keyword)
+- ✅ Develop ranking and scoring systems
+
+## 🚀 Quick Navigation
+
+- **New to the project?** Start with [Milestone 1 QUICKSTART.md](QUICKSTART.md)
+- **Want RAG/Semantic Search?** See [Milestone 2 README_MILESTONE2.md](README_MILESTONE2.md)
+- **Ready to demo?** Check [DEMO_MILESTONE2.md](DEMO_MILESTONE2.md)
+
+## 📊 Project Overview
+
+| Milestone | Focus | Key Technologies | Status |
+|-----------|-------|------------------|--------|
+| **1** | LLM Function Calling | Claude API, Tool Use, File I/O | ✅ Complete |
+| **2** | RAG Profile Matching | ChromaDB, SentenceTransformers, Semantic Search | ✅ Complete |
+
+---
+
+## 📋 Milestone 1 Features
 
 ### Part A: Core File System Tools (60%)
 

@@ -1,0 +1,41 @@
+Rory Ramirez
+DevOps Engineer
+
+Email: rory.ramirez@email.com | Phone: (555) 702-3746
+
+PROFESSIONAL SUMMARY
+DevOps Engineer with 8+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Go, C++, JavaScript
+- Frameworks: Terraform, Ansible, Express, Next.js
+- Databases: PostgreSQL, SQL Server, MySQL
+- Cloud/DevOps: AWS, Terraform, Google Cloud
+- Tools: Jira, GitLab CI, Git
+
+PROFESSIONAL EXPERIENCE
+
+Senior DevOps Engineer | StartUp Ventures | 2022 - 2024
+- Led development of mobile apps
+- Improved scalability by 55%
+- Mentored 6 junior developers
+
+Senior DevOps Engineer | Enterprise Software Group | 2018 - Present
+- Led development of web applications
+- Improved performance by 60%
+- Mentored 8 junior developers
+
+Senior DevOps Engineer | Innovation Labs | 2016 - Present
+- Led development of data pipelines
+- Improved scalability by 24%
+- Mentored 6 junior developers
+
+
+EDUCATION
+Bachelor of Science in Data Science, Stanford, 2016
+Master of Science in Information Technology, Carnegie Mellon, 2012
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect
+- Certified Kubernetes Administrator

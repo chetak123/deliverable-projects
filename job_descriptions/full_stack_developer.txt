@@ -1,0 +1,30 @@
+Full Stack Developer
+
+Position: Full Stack Developer (Mid to Senior Level)
+
+Required Skills:
+- 4+ years of full stack development experience
+- Proficiency in JavaScript/TypeScript
+- Strong experience with React or Vue.js
+- Backend development with Node.js
+- Experience with RESTful APIs and GraphQL
+- Database experience (PostgreSQL, MongoDB)
+- Version control with Git
+
+Preferred Skills:
+- Experience with Next.js or modern React frameworks
+- Knowledge of TypeScript
+- CI/CD pipeline experience
+- Docker and containerization
+- AWS or cloud platform experience
+- Agile/Scrum methodology
+
+Responsibilities:
+- Build and maintain web applications
+- Develop responsive user interfaces
+- Design and implement APIs
+- Write clean, maintainable code
+- Collaborate with designers and product managers
+- Participate in sprint planning and standups
+
+Benefits include health insurance, 401k matching, and flexible hours.

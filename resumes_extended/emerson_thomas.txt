@@ -1,0 +1,41 @@
+Emerson Thomas
+Mobile Developer
+
+Email: emerson.thomas@email.com | Phone: (555) 965-8328
+
+PROFESSIONAL SUMMARY
+Mobile Developer with 6+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Swift, Kotlin, TypeScript, Java
+- Frameworks: React Native, Flutter, React, Spring Boot
+- Databases: PostgreSQL, Elasticsearch
+- Cloud/DevOps: Terraform, Google Cloud, AWS, Ansible
+- Tools: Power BI, Confluence
+
+PROFESSIONAL EXPERIENCE
+
+Senior Mobile Developer | StartUp Ventures | 2021 - 2024
+- Led development of web applications
+- Improved performance by 26%
+- Mentored 6 junior developers
+
+Senior Mobile Developer | AI Research Inc | 2019 - Present
+- Led development of microservices
+- Improved scalability by 23%
+- Mentored 3 junior developers
+
+Senior Mobile Developer | Tech Corp | 2018 - Present
+- Led development of mobile apps
+- Improved performance by 33%
+- Mentored 4 junior developers
+
+
+EDUCATION
+Bachelor of Science in Computer Science, UC Berkeley, 2018
+Master of Science in Information Technology, MIT, 2014
+
+CERTIFICATIONS
+- Google Cloud Professional
+- Certified Kubernetes Administrator

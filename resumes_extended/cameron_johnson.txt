@@ -1,0 +1,36 @@
+Cameron Johnson
+Machine Learning Engineer
+
+Email: cameron.johnson@email.com | Phone: (555) 239-9860
+
+PROFESSIONAL SUMMARY
+Machine Learning Engineer with 7+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Kotlin, Ruby
+- Frameworks: TensorFlow, PyTorch, Scikit-learn, Node.js, Next.js
+- Databases: Elasticsearch, PostgreSQL
+- Cloud/DevOps: Ansible, AWS
+- ML/AI: Computer Vision, NLP, Keras, Deep Learning
+- Tools: GitLab CI, Jira, Tableau, Git
+
+PROFESSIONAL EXPERIENCE
+
+Senior Machine Learning Engineer | Enterprise Software Group | 2020 - 2024
+- Led development of mobile apps
+- Improved performance by 31%
+- Mentored 8 junior developers
+
+Senior Machine Learning Engineer | AI Research Inc | 2017 - Present
+- Led development of web applications
+- Improved performance by 27%
+- Mentored 5 junior developers
+
+
+EDUCATION
+Bachelor of Science in Software Engineering, University of Washington, 2017
+Master of Science in Computer Science, Columbia, 2013
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect

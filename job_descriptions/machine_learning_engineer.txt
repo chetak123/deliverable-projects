@@ -1,0 +1,29 @@
+Machine Learning Engineer
+
+Company Overview:
+Join our AI team to build cutting-edge machine learning solutions.
+
+Requirements:
+- Master's degree in Computer Science, Statistics, or related field
+- 3+ years of experience in machine learning
+- Strong programming skills in Python
+- Experience with TensorFlow or PyTorch
+- Solid understanding of ML algorithms and deep learning
+- Experience with NLP or Computer Vision
+- Proficiency in data preprocessing and feature engineering
+
+Nice to Have:
+- PhD in Machine Learning or related field
+- Publications in top-tier conferences
+- Experience with MLOps and model deployment
+- Knowledge of distributed training
+- Experience with cloud ML platforms (AWS SageMaker, Azure ML)
+
+What You'll Do:
+- Develop and deploy machine learning models
+- Research and implement state-of-the-art algorithms
+- Work with large-scale datasets
+- Optimize model performance and accuracy
+- Collaborate with data scientists and engineers
+
+Competitive compensation package with equity options.

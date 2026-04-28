@@ -1,0 +1,37 @@
+Mason Moore
+Data Scientist
+
+Email: mason.moore@email.com | Phone: (555) 648-5628
+
+PROFESSIONAL SUMMARY
+Data Scientist with 6+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, R, JavaScript, Java
+- Frameworks: TensorFlow, PyTorch, Scikit-learn, Ruby on Rails, Flask
+- Databases: PostgreSQL, MongoDB, DynamoDB
+- Cloud/DevOps: Docker, Terraform
+- ML/AI: TensorFlow, Computer Vision, PyTorch, NLP
+- Tools: Jira, Power BI, GitLab CI
+
+PROFESSIONAL EXPERIENCE
+
+Senior Data Scientist | Data Insights Co | 2020 - 2024
+- Led development of microservices
+- Improved scalability by 41%
+- Mentored 5 junior developers
+
+Senior Data Scientist | Innovation Labs | 2020 - Present
+- Led development of data pipelines
+- Improved performance by 54%
+- Mentored 3 junior developers
+
+
+EDUCATION
+Bachelor of Science in Computer Science, MIT, 2018
+Master of Science in Data Science, UC Berkeley, 2014
+
+CERTIFICATIONS
+- Google Cloud Professional
+- AWS Certified Solutions Architect

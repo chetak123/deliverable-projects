@@ -1,0 +1,32 @@
+Taylor White
+QA Engineer
+
+Email: taylor.white@email.com | Phone: (555) 514-3834
+
+PROFESSIONAL SUMMARY
+QA Engineer with 4+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, C++, Kotlin
+- Frameworks: Selenium, Jest, Angular, FastAPI
+- Databases: Elasticsearch, MySQL
+- Cloud/DevOps: Kubernetes, Google Cloud
+- Tools: Power BI, GitLab CI
+
+PROFESSIONAL EXPERIENCE
+
+QA Engineer | AI Research Inc | 2022 - 2024
+- Led development of data pipelines
+- Improved performance by 60%
+- Mentored 7 junior developers
+
+QA Engineer | Web Services LLC | 2019 - Present
+- Led development of mobile apps
+- Improved performance by 39%
+- Mentored 7 junior developers
+
+
+EDUCATION
+Bachelor of Science in Computer Science, Columbia, 2020
+Master of Science in Software Engineering, MIT, 2016

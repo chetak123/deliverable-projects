@@ -1,0 +1,28 @@
+Senior Python Engineer
+
+About the Role:
+We are seeking a Senior Python Engineer to join our growing team. You will be responsible for designing and implementing scalable backend systems.
+
+Required Qualifications:
+- 5+ years of professional software development experience
+- Strong expertise in Python
+- Experience with Django or Flask framework
+- Proficiency in SQL databases (PostgreSQL preferred)
+- Experience with RESTful API design
+- Strong understanding of software design patterns
+
+Preferred Qualifications:
+- Experience with AWS or other cloud platforms
+- Knowledge of Docker and Kubernetes
+- Experience with CI/CD pipelines
+- Familiarity with microservices architecture
+- Experience mentoring junior developers
+
+Responsibilities:
+- Design and develop high-quality Python applications
+- Collaborate with cross-functional teams
+- Participate in code reviews and technical discussions
+- Optimize application performance and scalability
+- Mentor junior team members
+
+We offer competitive salary, health benefits, and remote work options.

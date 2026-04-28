@@ -1,0 +1,31 @@
+Cameron Brown
+QA Engineer
+
+Email: cameron.brown@email.com | Phone: (555) 474-2592
+
+PROFESSIONAL SUMMARY
+QA Engineer with 3+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, PHP, Kotlin
+- Frameworks: Selenium, Jest, Angular, Flask
+- Databases: DynamoDB, MongoDB
+- Cloud/DevOps: Terraform, Kubernetes, Azure
+- Tools: GitHub Actions, Jira, Power BI, Git
+
+PROFESSIONAL EXPERIENCE
+
+QA Engineer | Enterprise Software Group | 2022 - 2024
+- Led development of microservices
+- Improved scalability by 39%
+- Collaborated with cross-functional teams
+
+QA Engineer | Innovation Labs | 2020 - Present
+- Led development of mobile apps
+- Improved scalability by 39%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Software Engineering, Columbia, 2021
