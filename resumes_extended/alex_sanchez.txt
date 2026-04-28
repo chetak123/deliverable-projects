@@ -1,0 +1,40 @@
+Alex Sanchez
+Software Engineer
+
+Email: alex.sanchez@email.com | Phone: (555) 346-6616
+
+PROFESSIONAL SUMMARY
+Software Engineer with 11+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Java, JavaScript, Ruby, Scala
+- Frameworks: Django, React, Spring Boot, Vue.js, Ruby on Rails
+- Databases: PostgreSQL, MongoDB, Cassandra, DynamoDB
+- Cloud/DevOps: AWS, Google Cloud, Terraform, Docker
+- Tools: GitHub Actions, GitLab CI
+
+PROFESSIONAL EXPERIENCE
+
+Senior Software Engineer | AI Research Inc | 2020 - 2024
+- Led development of data pipelines
+- Improved scalability by 26%
+- Mentored 2 junior developers
+
+Senior Software Engineer | Tech Corp | 2018 - Present
+- Led development of mobile apps
+- Improved scalability by 35%
+- Mentored 4 junior developers
+
+Senior Software Engineer | Innovation Labs | 2013 - Present
+- Led development of web applications
+- Improved scalability by 46%
+- Mentored 4 junior developers
+
+
+EDUCATION
+Bachelor of Science in Software Engineering, Georgia Tech, 2013
+Master of Science in Data Science, Cornell, 2009
+
+CERTIFICATIONS
+- PMP Certified

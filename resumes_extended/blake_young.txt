@@ -1,0 +1,31 @@
+Blake Young
+Frontend Developer
+
+Email: blake.young@email.com | Phone: (555) 761-8854
+
+PROFESSIONAL SUMMARY
+Frontend Developer with 3+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, Rust, Python
+- Frameworks: React, Vue.js, Angular, Ruby on Rails, Flask
+- Databases: Oracle, MongoDB
+- Cloud/DevOps: AWS, Terraform, Kubernetes, Ansible
+- Tools: Tableau, GitHub Actions
+
+PROFESSIONAL EXPERIENCE
+
+Frontend Developer | Innovation Labs | 2022 - 2024
+- Led development of mobile apps
+- Improved user experience by 22%
+- Collaborated with cross-functional teams
+
+Frontend Developer | Mobile Apps Co | 2020 - Present
+- Led development of microservices
+- Improved user experience by 26%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Data Science, University of Michigan, 2021

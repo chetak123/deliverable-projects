@@ -1,0 +1,26 @@
+Gray Lewis
+Cloud Architect
+
+Email: gray.lewis@email.com | Phone: (555) 947-7460
+
+PROFESSIONAL SUMMARY
+Cloud Architect with 2+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Java, TypeScript, PHP
+- Frameworks: Terraform, Angular, Express
+- Databases: Redis, PostgreSQL
+- Cloud/DevOps: Google Cloud, Docker, AWS, Ansible
+- Tools: Jenkins, Confluence
+
+PROFESSIONAL EXPERIENCE
+
+Junior Cloud Architect | Mobile Apps Co | 2022 - 2024
+- Led development of data pipelines
+- Improved user experience by 53%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Information Technology, Georgia Tech, 2022

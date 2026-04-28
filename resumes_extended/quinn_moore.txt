@@ -1,0 +1,35 @@
+Quinn Moore
+DevOps Engineer
+
+Email: quinn.moore@email.com | Phone: (555) 692-8167
+
+PROFESSIONAL SUMMARY
+DevOps Engineer with 6+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Go, Swift, Rust
+- Frameworks: Terraform, Ansible, Angular, Django
+- Databases: PostgreSQL, Elasticsearch, MongoDB
+- Cloud/DevOps: Docker, Kubernetes
+- Tools: Jira, Power BI, Confluence
+
+PROFESSIONAL EXPERIENCE
+
+Senior DevOps Engineer | Data Insights Co | 2020 - 2024
+- Led development of microservices
+- Improved scalability by 37%
+- Mentored 8 junior developers
+
+Senior DevOps Engineer | Innovation Labs | 2020 - Present
+- Led development of data pipelines
+- Improved performance by 48%
+- Mentored 7 junior developers
+
+
+EDUCATION
+Bachelor of Science in Data Science, NYU, 2018
+Master of Science in Software Engineering, University of Texas, 2014
+
+CERTIFICATIONS
+- PMP Certified

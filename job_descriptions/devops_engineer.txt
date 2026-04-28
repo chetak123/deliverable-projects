@@ -1,0 +1,29 @@
+DevOps Engineer
+
+We're looking for an experienced DevOps Engineer to enhance our infrastructure.
+
+Minimum Requirements:
+- 5+ years in DevOps or similar role
+- Strong experience with AWS (EC2, S3, RDS, Lambda)
+- Expertise in Kubernetes and Docker
+- Infrastructure as Code (Terraform preferred)
+- CI/CD pipeline design and implementation
+- Scripting skills (Python, Bash)
+- Experience with monitoring tools (Prometheus, Grafana)
+
+Additional Requirements:
+- Jenkins or GitLab CI experience
+- Configuration management (Ansible, Chef, or Puppet)
+- Security best practices
+- Performance optimization skills
+- Strong troubleshooting abilities
+
+Key Responsibilities:
+- Manage and scale Kubernetes clusters
+- Automate infrastructure provisioning
+- Implement and maintain CI/CD pipelines
+- Monitor system performance and reliability
+- Ensure security and compliance
+- Collaborate with development teams
+
+Excellent benefits package with unlimited PTO.

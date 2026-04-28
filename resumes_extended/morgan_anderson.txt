@@ -1,0 +1,36 @@
+Morgan Anderson
+DevOps Engineer
+
+Email: morgan.anderson@email.com | Phone: (555) 832-2919
+
+PROFESSIONAL SUMMARY
+DevOps Engineer with 7+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Go, Swift, C#
+- Frameworks: Terraform, Ansible, React, Angular
+- Databases: PostgreSQL, Oracle, MongoDB
+- Cloud/DevOps: Terraform, Ansible, Google Cloud, Kubernetes
+- Tools: Power BI, Confluence, GitLab CI, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Senior DevOps Engineer | Mobile Apps Co | 2021 - 2024
+- Led development of microservices
+- Improved user experience by 59%
+- Mentored 3 junior developers
+
+Senior DevOps Engineer | Cloud Systems Inc | 2017 - Present
+- Led development of web applications
+- Improved performance by 26%
+- Mentored 4 junior developers
+
+
+EDUCATION
+Bachelor of Science in Computer Science, MIT, 2017
+Master of Science in Software Engineering, University of Michigan, 2013
+
+CERTIFICATIONS
+- Google Cloud Professional
+- PMP Certified

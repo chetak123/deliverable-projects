@@ -1,0 +1,41 @@
+Jamie Rodriguez
+Data Scientist
+
+Email: jamie.rodriguez@email.com | Phone: (555) 522-8271
+
+PROFESSIONAL SUMMARY
+Data Scientist with 8+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, R, Java, Scala
+- Frameworks: TensorFlow, PyTorch, Scikit-learn, Ruby on Rails, Next.js
+- Databases: PostgreSQL, Cassandra, Oracle
+- Cloud/DevOps: Ansible, Docker, Azure, Terraform
+- ML/AI: NLP, PyTorch, TensorFlow
+- Tools: Jenkins, GitLab CI
+
+PROFESSIONAL EXPERIENCE
+
+Senior Data Scientist | Enterprise Software Group | 2021 - 2024
+- Led development of mobile apps
+- Improved user experience by 34%
+- Mentored 3 junior developers
+
+Senior Data Scientist | Innovation Labs | 2016 - Present
+- Led development of web applications
+- Improved scalability by 22%
+- Mentored 6 junior developers
+
+Senior Data Scientist | Cloud Systems Inc | 2017 - Present
+- Led development of mobile apps
+- Improved user experience by 27%
+- Mentored 7 junior developers
+
+
+EDUCATION
+Bachelor of Science in Information Technology, University of Michigan, 2016
+Master of Science in Software Engineering, MIT, 2012
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator

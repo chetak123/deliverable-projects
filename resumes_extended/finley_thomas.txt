@@ -1,0 +1,41 @@
+Finley Thomas
+Full Stack Developer
+
+Email: finley.thomas@email.com | Phone: (555) 816-5116
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 9+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, Python, PHP, C#
+- Frameworks: React, Node.js, Django, Vue.js, FastAPI
+- Databases: PostgreSQL, MongoDB, SQL Server, Elasticsearch
+- Cloud/DevOps: AWS, Azure, Google Cloud, Terraform
+- Tools: Tableau, Git, GitHub Actions
+
+PROFESSIONAL EXPERIENCE
+
+Senior Full Stack Developer | Cloud Systems Inc | 2020 - 2024
+- Led development of data pipelines
+- Improved scalability by 35%
+- Mentored 3 junior developers
+
+Senior Full Stack Developer | Innovation Labs | 2018 - Present
+- Led development of data pipelines
+- Improved performance by 45%
+- Mentored 5 junior developers
+
+Senior Full Stack Developer | Mobile Apps Co | 2017 - Present
+- Led development of microservices
+- Improved performance by 43%
+- Mentored 3 junior developers
+
+
+EDUCATION
+Bachelor of Science in Software Engineering, Carnegie Mellon, 2015
+Master of Science in Computer Science, University of Texas, 2011
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator
+- Google Cloud Professional

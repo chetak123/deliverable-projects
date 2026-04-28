@@ -1,0 +1,40 @@
+Val Jackson
+Frontend Developer
+
+Email: val.jackson@email.com | Phone: (555) 413-2392
+
+PROFESSIONAL SUMMARY
+Frontend Developer with 8+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, C++, Rust
+- Frameworks: React, Vue.js, Angular, Node.js, FastAPI
+- Databases: MySQL, Elasticsearch
+- Cloud/DevOps: Ansible, Docker
+- Tools: Confluence, Jira, GitLab CI, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Senior Frontend Developer | Mobile Apps Co | 2021 - 2024
+- Led development of web applications
+- Improved performance by 37%
+- Mentored 4 junior developers
+
+Senior Frontend Developer | AI Research Inc | 2017 - Present
+- Led development of microservices
+- Improved performance by 40%
+- Mentored 7 junior developers
+
+Senior Frontend Developer | Data Insights Co | 2016 - Present
+- Led development of data pipelines
+- Improved user experience by 51%
+- Mentored 7 junior developers
+
+
+EDUCATION
+Bachelor of Science in Computer Science, Stanford, 2016
+Master of Science in Information Technology, Columbia, 2012
+
+CERTIFICATIONS
+- Google Cloud Professional

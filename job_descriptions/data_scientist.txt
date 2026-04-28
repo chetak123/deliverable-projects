@@ -1,0 +1,30 @@
+Data Scientist
+
+Company: Leading Analytics Firm
+
+Required Qualifications:
+- 3+ years of data science experience
+- Strong Python programming skills
+- Experience with pandas, NumPy, Scikit-learn
+- Proficiency in statistical analysis and hypothesis testing
+- SQL expertise for data extraction
+- Data visualization skills (Matplotlib, Seaborn, Tableau)
+- Machine learning model development experience
+
+Preferred Qualifications:
+- Master's or PhD in quantitative field
+- Experience with big data technologies (Spark, Hadoop)
+- Deep learning experience (TensorFlow, PyTorch)
+- A/B testing and experimental design
+- Business intelligence tools
+- Experience in specific domain (finance, healthcare, etc.)
+
+What You'll Do:
+- Analyze large datasets to extract insights
+- Build predictive models and ML algorithms
+- Create data visualizations and dashboards
+- Collaborate with stakeholders on data-driven decisions
+- Present findings to non-technical audiences
+- Maintain and improve existing models
+
+Competitive salary with performance bonuses and stock options.

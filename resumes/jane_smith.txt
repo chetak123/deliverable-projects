@@ -1,0 +1,37 @@
+JANE SMITH
+Data Scientist
+
+Contact: jane.smith@email.com | (555) 987-6543
+Portfolio: janesmith.dev
+
+PROFESSIONAL SUMMARY
+Data scientist with 4 years of experience in machine learning, statistical analysis, and data visualization.
+Skilled in Python, R, and SQL with a proven track record of delivering insights that drive business decisions.
+
+SKILLS
+- Programming: Python, R, SQL, MATLAB
+- ML/AI: TensorFlow, PyTorch, Scikit-learn, Keras
+- Data Viz: Tableau, Power BI, Matplotlib, Seaborn
+- Big Data: Spark, Hadoop, Hive
+
+WORK HISTORY
+
+Data Scientist | Analytics Solutions | 2022 - Present
+- Developed predictive models achieving 92% accuracy
+- Created automated reporting dashboards using Python and Tableau
+- Analyzed large datasets (10M+ records) using Spark
+
+Junior Data Analyst | Data Insights Co | 2020 - 2022
+- Performed statistical analysis using R and Python
+- Built ETL pipelines for data processing
+- Collaborated with stakeholders to define KPIs
+
+EDUCATION
+Master of Science in Data Science
+Data University | 2018 - 2020
+
+Bachelor of Science in Statistics
+Math College | 2014 - 2018
+
+PUBLICATIONS
+- "Machine Learning Applications in Finance" - Data Journal 2023

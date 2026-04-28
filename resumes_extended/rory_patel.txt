@@ -1,0 +1,35 @@
+Rory Patel
+Senior Backend Developer
+
+Email: rory.patel@email.com | Phone: (555) 147-8382
+
+PROFESSIONAL SUMMARY
+Senior Backend Developer with 6+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Go, Java, C#, C++
+- Frameworks: Django, Flask, Spring Boot, Express, Angular
+- Databases: PostgreSQL, Redis, DynamoDB, Oracle
+- Cloud/DevOps: Kubernetes, Google Cloud, Azure
+- Tools: Git, Confluence, GitLab CI, Jenkins
+
+PROFESSIONAL EXPERIENCE
+
+Senior Senior Backend Developer | Enterprise Software Group | 2021 - 2024
+- Led development of mobile apps
+- Improved user experience by 25%
+- Mentored 8 junior developers
+
+Senior Senior Backend Developer | StartUp Ventures | 2017 - Present
+- Led development of microservices
+- Improved scalability by 60%
+- Mentored 6 junior developers
+
+
+EDUCATION
+Bachelor of Science in Information Technology, UC Berkeley, 2018
+Master of Science in Computer Science, Cornell, 2014
+
+CERTIFICATIONS
+- AWS Certified Solutions Architect

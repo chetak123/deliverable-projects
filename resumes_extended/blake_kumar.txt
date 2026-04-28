@@ -1,0 +1,26 @@
+Blake Kumar
+Cloud Architect
+
+Email: blake.kumar@email.com | Phone: (555) 412-1365
+
+PROFESSIONAL SUMMARY
+Cloud Architect with 2+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Java, PHP, C#
+- Frameworks: Terraform, Angular, Django
+- Databases: MySQL, Cassandra
+- Cloud/DevOps: AWS, Kubernetes, Terraform
+- Tools: Power BI, Tableau, Git
+
+PROFESSIONAL EXPERIENCE
+
+Junior Cloud Architect | Enterprise Software Group | 2022 - 2024
+- Led development of microservices
+- Improved performance by 33%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Information Technology, Columbia, 2022

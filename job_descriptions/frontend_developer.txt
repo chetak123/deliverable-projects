@@ -1,0 +1,30 @@
+Frontend Developer
+
+Position: Senior Frontend Developer
+
+Must Have:
+- 4+ years of frontend development experience
+- Expert-level knowledge of React
+- Strong JavaScript and TypeScript skills
+- HTML5, CSS3, and responsive design
+- State management (Redux, Context API)
+- RESTful API integration
+- Git version control
+
+Nice to Have:
+- Next.js or Gatsby experience
+- UI/UX design skills
+- Testing frameworks (Jest, React Testing Library)
+- Webpack or build tools configuration
+- Performance optimization experience
+- Accessibility (WCAG) knowledge
+
+Responsibilities:
+- Develop modern, responsive web applications
+- Implement pixel-perfect designs
+- Optimize application performance
+- Write clean, reusable components
+- Collaborate with backend developers
+- Participate in code reviews
+
+Great work culture with remote-first approach and professional development budget.

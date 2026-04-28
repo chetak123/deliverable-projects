@@ -1,0 +1,27 @@
+Casey Kumar
+Senior Backend Developer
+
+Email: casey.kumar@email.com | Phone: (555) 699-3970
+
+PROFESSIONAL SUMMARY
+Senior Backend Developer with 4+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Go, Java, JavaScript, PHP
+- Frameworks: Django, Flask, Spring Boot, Angular, Vue.js
+- Databases: PostgreSQL, Redis, DynamoDB, Cassandra
+- Cloud/DevOps: Ansible, AWS, Docker, Terraform
+- Tools: Jira, GitHub Actions
+
+PROFESSIONAL EXPERIENCE
+
+Senior Backend Developer | Innovation Labs | 2020 - 2024
+- Led development of microservices
+- Improved scalability by 46%
+- Mentored 2 junior developers
+
+
+EDUCATION
+Bachelor of Science in Computer Science, Stanford, 2020
+Master of Science in Data Science, MIT, 2016

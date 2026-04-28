@@ -1,0 +1,32 @@
+Jamie Lee
+Full Stack Developer
+
+Email: jamie.lee@email.com | Phone: (555) 782-6040
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 5+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, Python, Kotlin, Ruby
+- Frameworks: React, Node.js, Django, FastAPI, Angular
+- Databases: PostgreSQL, MongoDB, Cassandra, DynamoDB
+- Cloud/DevOps: Ansible, Docker, Terraform
+- Tools: Power BI, GitHub Actions
+
+PROFESSIONAL EXPERIENCE
+
+Full Stack Developer | Tech Corp | 2020 - 2024
+- Led development of mobile apps
+- Improved performance by 25%
+- Mentored 7 junior developers
+
+Full Stack Developer | Digital Solutions | 2020 - Present
+- Led development of data pipelines
+- Improved user experience by 33%
+- Mentored 7 junior developers
+
+
+EDUCATION
+Bachelor of Science in Data Science, Stanford, 2019
+Master of Science in Data Science, MIT, 2015

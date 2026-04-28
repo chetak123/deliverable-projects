@@ -1,0 +1,26 @@
+Mason Taylor
+Software Engineer
+
+Email: mason.taylor@email.com | Phone: (555) 986-9094
+
+PROFESSIONAL SUMMARY
+Software Engineer with 2+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Java, JavaScript, Kotlin, C#
+- Frameworks: Django, React, Spring Boot, Vue.js, Express
+- Databases: PostgreSQL, MongoDB, DynamoDB, SQL Server
+- Cloud/DevOps: Azure, Docker, Kubernetes
+- Tools: Jira, GitHub Actions
+
+PROFESSIONAL EXPERIENCE
+
+Junior Software Engineer | Innovation Labs | 2022 - 2024
+- Led development of mobile apps
+- Improved performance by 46%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Computer Science, University of Michigan, 2022

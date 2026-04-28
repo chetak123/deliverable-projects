@@ -1,0 +1,26 @@
+Quinn Anderson
+Frontend Developer
+
+Email: quinn.anderson@email.com | Phone: (555) 824-6275
+
+PROFESSIONAL SUMMARY
+Frontend Developer with 1+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, Kotlin, PHP
+- Frameworks: React, Vue.js, Angular, Spring Boot, Node.js
+- Databases: Oracle, Redis
+- Cloud/DevOps: Docker, Kubernetes, AWS
+- Tools: GitHub Actions, GitLab CI, Confluence, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Junior Frontend Developer | AI Research Inc | 2023 - 2024
+- Led development of data pipelines
+- Improved scalability by 21%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Software Engineering, Georgia Tech, 2023
