@@ -1,0 +1,27 @@
+Morgan Chen
+Machine Learning Engineer
+
+Email: morgan.chen@email.com | Phone: (555) 844-4665
+
+PROFESSIONAL SUMMARY
+Machine Learning Engineer with 2+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Java, Ruby
+- Frameworks: TensorFlow, PyTorch, Scikit-learn, Next.js, Flask
+- Databases: MySQL, Redis
+- Cloud/DevOps: Ansible, Terraform, Kubernetes, Google Cloud
+- ML/AI: Machine Learning, Keras, NLP, TensorFlow
+- Tools: Tableau, Jira, Git
+
+PROFESSIONAL EXPERIENCE
+
+Junior Machine Learning Engineer | Cloud Systems Inc | 2022 - 2024
+- Led development of data pipelines
+- Improved scalability by 49%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Information Technology, MIT, 2022

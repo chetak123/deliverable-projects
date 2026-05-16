@@ -1,0 +1,37 @@
+ALEX CHEN
+Mobile App Developer
+
+Email: alex.chen@email.com | Phone: (555) 345-6789
+LinkedIn: linkedin.com/in/alexchen
+
+PROFILE
+Mobile application developer specializing in iOS and Android development.
+5 years of experience creating user-friendly mobile applications.
+
+TECHNICAL SKILLS
+- Mobile: Swift, Kotlin, React Native, Flutter
+- Languages: JavaScript, TypeScript, Python
+- Backend: Firebase, Node.js, GraphQL
+- Tools: Xcode, Android Studio, Git, Fastlane
+- Testing: XCTest, Espresso, Jest
+
+EXPERIENCE
+
+Senior Mobile Developer | Mobile Apps Co | 2021 - Present
+- Developed iOS apps with Swift reaching 500K+ downloads
+- Led migration from native to React Native
+- Implemented push notifications and in-app purchases
+- Improved app performance and reduced crash rate by 60%
+
+Mobile Developer | App Studio | 2019 - 2021
+- Built Android applications using Kotlin
+- Integrated RESTful APIs and GraphQL
+- Collaborated with designers on UI/UX
+
+EDUCATION
+Bachelor of Science in Computer Science
+Tech University | 2015 - 2019
+
+PROJECTS
+- TaskMaster App: Productivity app with 100K+ users
+- FitTracker: Health and fitness tracking application

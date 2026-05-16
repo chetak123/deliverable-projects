@@ -1,0 +1,41 @@
+Jordan Sanchez
+Cloud Architect
+
+Email: jordan.sanchez@email.com | Phone: (555) 335-6234
+
+PROFESSIONAL SUMMARY
+Cloud Architect with 7+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Java, Swift, Ruby
+- Frameworks: Terraform, Django, Express
+- Databases: Elasticsearch, MySQL
+- Cloud/DevOps: Kubernetes, Google Cloud, Azure
+- Tools: GitHub Actions, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Senior Cloud Architect | Web Services LLC | 2021 - 2024
+- Led development of web applications
+- Improved performance by 25%
+- Mentored 7 junior developers
+
+Senior Cloud Architect | Mobile Apps Co | 2020 - Present
+- Led development of data pipelines
+- Improved user experience by 43%
+- Mentored 7 junior developers
+
+Senior Cloud Architect | Innovation Labs | 2014 - Present
+- Led development of data pipelines
+- Improved performance by 33%
+- Mentored 4 junior developers
+
+
+EDUCATION
+Bachelor of Science in Computer Science, University of Texas, 2017
+Master of Science in Software Engineering, MIT, 2013
+
+CERTIFICATIONS
+- Google Cloud Professional
+- PMP Certified

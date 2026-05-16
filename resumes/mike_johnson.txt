@@ -1,0 +1,36 @@
+MIKE JOHNSON
+Full Stack Developer
+
+mike.johnson@email.com | +1-555-456-7890
+GitHub: github.com/mikej | Portfolio: mikejohnson.io
+
+ABOUT ME
+Full stack developer with 6 years of experience building web applications.
+Expertise in JavaScript ecosystem and cloud platforms.
+
+TECHNICAL EXPERTISE
+- Frontend: React, Vue.js, Angular, HTML5, CSS3, TypeScript
+- Backend: Node.js, Express, Python, Django
+- Databases: MySQL, PostgreSQL, MongoDB
+- Cloud: AWS, Google Cloud, Azure
+- DevOps: Docker, Kubernetes, Terraform
+
+PROFESSIONAL EXPERIENCE
+
+Lead Full Stack Developer | WebTech Solutions | 2020 - Present
+- Architected and deployed cloud-native applications on AWS
+- Led team of 8 developers using Agile methodologies
+- Reduced infrastructure costs by 30% through optimization
+
+Full Stack Developer | Digital Agency | 2018 - 2020
+- Developed e-commerce platforms using React and Node.js
+- Integrated payment systems (Stripe, PayPal)
+- Implemented automated testing (Jest, Cypress)
+
+EDUCATION
+Bachelor of Engineering in Software Engineering
+Engineering Institute | 2014 - 2018
+
+ACHIEVEMENTS
+- Winner of HackTech 2022
+- Open source contributor (500+ GitHub stars)

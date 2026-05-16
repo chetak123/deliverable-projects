@@ -1,0 +1,32 @@
+Sage Sanchez
+Software Engineer
+
+Email: sage.sanchez@email.com | Phone: (555) 557-1319
+
+PROFESSIONAL SUMMARY
+Software Engineer with 5+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Java, JavaScript, Ruby, Swift
+- Frameworks: Django, React, Spring Boot, Flask, Vue.js
+- Databases: PostgreSQL, MongoDB, SQL Server, MySQL
+- Cloud/DevOps: Terraform, AWS, Docker
+- Tools: Jira, Git, Jenkins, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Software Engineer | Data Insights Co | 2021 - 2024
+- Led development of microservices
+- Improved performance by 21%
+- Mentored 8 junior developers
+
+Software Engineer | Web Services LLC | 2019 - Present
+- Led development of web applications
+- Improved performance by 32%
+- Mentored 8 junior developers
+
+
+EDUCATION
+Bachelor of Science in Software Engineering, Carnegie Mellon, 2019
+Master of Science in Software Engineering, Cornell, 2015

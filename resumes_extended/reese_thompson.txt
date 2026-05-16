@@ -1,0 +1,40 @@
+Reese Thompson
+Full Stack Developer
+
+Email: reese.thompson@email.com | Phone: (555) 725-6149
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 7+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, Python, Scala, Kotlin
+- Frameworks: React, Node.js, Django, Express, Ruby on Rails
+- Databases: PostgreSQL, MongoDB, SQL Server, DynamoDB
+- Cloud/DevOps: Ansible, Docker
+- Tools: Confluence, Jenkins, Jira
+
+PROFESSIONAL EXPERIENCE
+
+Senior Full Stack Developer | Cloud Systems Inc | 2022 - 2024
+- Led development of web applications
+- Improved scalability by 38%
+- Mentored 7 junior developers
+
+Senior Full Stack Developer | Innovation Labs | 2016 - Present
+- Led development of web applications
+- Improved performance by 41%
+- Mentored 7 junior developers
+
+Senior Full Stack Developer | Digital Solutions | 2019 - Present
+- Led development of data pipelines
+- Improved user experience by 22%
+- Mentored 3 junior developers
+
+
+EDUCATION
+Bachelor of Science in Data Science, Stanford, 2017
+Master of Science in Information Technology, Cornell, 2013
+
+CERTIFICATIONS
+- Google Cloud Professional

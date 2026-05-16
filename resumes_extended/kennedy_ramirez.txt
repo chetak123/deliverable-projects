@@ -1,0 +1,36 @@
+Kennedy Ramirez
+QA Engineer
+
+Email: kennedy.ramirez@email.com | Phone: (555) 164-3468
+
+PROFESSIONAL SUMMARY
+QA Engineer with 6+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, Go, Swift
+- Frameworks: Selenium, Jest, Flask, Next.js
+- Databases: SQL Server, Oracle
+- Cloud/DevOps: Ansible, AWS
+- Tools: GitLab CI, GitHub Actions, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Senior QA Engineer | Tech Corp | 2020 - 2024
+- Led development of web applications
+- Improved performance by 46%
+- Mentored 2 junior developers
+
+Senior QA Engineer | Mobile Apps Co | 2019 - Present
+- Led development of mobile apps
+- Improved user experience by 56%
+- Mentored 2 junior developers
+
+
+EDUCATION
+Bachelor of Science in Information Technology, University of Washington, 2018
+Master of Science in Software Engineering, Cornell, 2014
+
+CERTIFICATIONS
+- PMP Certified
+- AWS Certified Solutions Architect

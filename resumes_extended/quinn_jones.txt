@@ -1,0 +1,27 @@
+Quinn Jones
+Full Stack Developer
+
+Email: quinn.jones@email.com | Phone: (555) 103-5458
+
+PROFESSIONAL SUMMARY
+Full Stack Developer with 4+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, Python, Swift, C#
+- Frameworks: React, Node.js, Django, Spring Boot, Flask
+- Databases: PostgreSQL, MongoDB, DynamoDB, SQL Server
+- Cloud/DevOps: AWS, Azure, Terraform, Ansible
+- Tools: Jira, Tableau, Jenkins
+
+PROFESSIONAL EXPERIENCE
+
+Full Stack Developer | Web Services LLC | 2020 - 2024
+- Led development of data pipelines
+- Improved performance by 44%
+- Mentored 2 junior developers
+
+
+EDUCATION
+Bachelor of Science in Information Technology, Columbia, 2020
+Master of Science in Data Science, University of Texas, 2016

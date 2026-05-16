@@ -1,0 +1,26 @@
+Parker Brown
+Mobile Developer
+
+Email: parker.brown@email.com | Phone: (555) 612-4894
+
+PROFESSIONAL SUMMARY
+Mobile Developer with 1+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Swift, Kotlin, C#, Scala
+- Frameworks: React Native, Flutter, Spring Boot, Ruby on Rails
+- Databases: MySQL, Elasticsearch
+- Cloud/DevOps: Google Cloud, Azure
+- Tools: Confluence, Power BI
+
+PROFESSIONAL EXPERIENCE
+
+Junior Mobile Developer | Innovation Labs | 2023 - 2024
+- Led development of microservices
+- Improved scalability by 37%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Computer Science, UC Berkeley, 2023

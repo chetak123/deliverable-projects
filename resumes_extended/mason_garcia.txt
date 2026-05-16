@@ -1,0 +1,41 @@
+Mason Garcia
+Data Scientist
+
+Email: mason.garcia@email.com | Phone: (555) 954-7310
+
+PROFESSIONAL SUMMARY
+Data Scientist with 9+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, R, PHP, Swift
+- Frameworks: TensorFlow, PyTorch, Scikit-learn, Node.js, React
+- Databases: PostgreSQL, DynamoDB, MySQL
+- Cloud/DevOps: Kubernetes, Terraform, Docker
+- ML/AI: Computer Vision, NLP, Machine Learning
+- Tools: Jenkins, Power BI, GitHub Actions
+
+PROFESSIONAL EXPERIENCE
+
+Senior Data Scientist | StartUp Ventures | 2021 - 2024
+- Led development of data pipelines
+- Improved user experience by 60%
+- Mentored 2 junior developers
+
+Senior Data Scientist | Digital Solutions | 2018 - Present
+- Led development of mobile apps
+- Improved scalability by 27%
+- Mentored 3 junior developers
+
+Senior Data Scientist | AI Research Inc | 2015 - Present
+- Led development of data pipelines
+- Improved user experience by 41%
+- Mentored 8 junior developers
+
+
+EDUCATION
+Bachelor of Science in Software Engineering, MIT, 2015
+Master of Science in Software Engineering, University of Texas, 2011
+
+CERTIFICATIONS
+- PMP Certified

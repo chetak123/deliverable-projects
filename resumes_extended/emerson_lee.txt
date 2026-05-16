@@ -1,0 +1,27 @@
+Emerson Lee
+Machine Learning Engineer
+
+Email: emerson.lee@email.com | Phone: (555) 101-3558
+
+PROFESSIONAL SUMMARY
+Machine Learning Engineer with 2+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, JavaScript, C++
+- Frameworks: TensorFlow, PyTorch, Scikit-learn, Ruby on Rails, Express
+- Databases: Oracle, MongoDB
+- Cloud/DevOps: AWS, Ansible, Google Cloud
+- ML/AI: TensorFlow, PyTorch, Keras, Deep Learning, Machine Learning
+- Tools: Confluence, GitHub Actions
+
+PROFESSIONAL EXPERIENCE
+
+Junior Machine Learning Engineer | Mobile Apps Co | 2022 - 2024
+- Led development of data pipelines
+- Improved scalability by 46%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Data Science, NYU, 2022

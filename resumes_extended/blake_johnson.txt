@@ -1,0 +1,35 @@
+Blake Johnson
+Frontend Developer
+
+Email: blake.johnson@email.com | Phone: (555) 295-3913
+
+PROFESSIONAL SUMMARY
+Frontend Developer with 6+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: JavaScript, TypeScript, C++, Go
+- Frameworks: React, Vue.js, Angular, Django, Spring Boot
+- Databases: Oracle, Redis
+- Cloud/DevOps: AWS, Google Cloud, Kubernetes
+- Tools: Jenkins, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Senior Frontend Developer | Enterprise Software Group | 2021 - 2024
+- Led development of microservices
+- Improved user experience by 35%
+- Mentored 8 junior developers
+
+Senior Frontend Developer | Cloud Systems Inc | 2019 - Present
+- Led development of data pipelines
+- Improved scalability by 39%
+- Mentored 5 junior developers
+
+
+EDUCATION
+Bachelor of Science in Information Technology, Cornell, 2018
+Master of Science in Data Science, MIT, 2014
+
+CERTIFICATIONS
+- PMP Certified

@@ -1,0 +1,32 @@
+# ─── Milestone 3: LangGraph Agent (Ollama, no cloud API needed) ───────────────
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-ollama>=0.2.0
+langchain-community>=0.3.0
+
+# Milestone 3: Chat Interface
+streamlit>=1.38.0
+
+# ─── Milestone 1: File processing (Anthropic REMOVED — using Ollama now) ──────
+PyPDF2>=3.0.0
+python-docx>=1.1.0
+reportlab>=4.0.0
+
+# ─── Milestone 2: NLP and NER ─────────────────────────────────────────────────
+spacy>=3.7.0
+# Run after install: python -m spacy download en_core_web_sm
+
+# Milestone 2: Embeddings (local model, no API key needed)
+sentence-transformers>=2.2.0
+
+# Milestone 2: Vector Database
+chromadb>=0.4.0
+
+# Milestone 2: Data Analysis
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# ─── Utilities ────────────────────────────────────────────────────────────────
+pathlib>=1.0.1

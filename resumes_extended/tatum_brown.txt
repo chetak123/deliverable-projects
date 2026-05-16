@@ -1,0 +1,32 @@
+Tatum Brown
+Data Scientist
+
+Email: tatum.brown@email.com | Phone: (555) 142-1297
+
+PROFESSIONAL SUMMARY
+Data Scientist with 3+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, R, Java, Go
+- Frameworks: TensorFlow, PyTorch, Scikit-learn, React, Spring Boot
+- Databases: PostgreSQL, Redis, MongoDB
+- Cloud/DevOps: AWS, Docker, Terraform
+- ML/AI: PyTorch, Deep Learning, TensorFlow
+- Tools: GitHub Actions, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Data Scientist | Web Services LLC | 2022 - 2024
+- Led development of mobile apps
+- Improved scalability by 40%
+- Collaborated with cross-functional teams
+
+Data Scientist | Enterprise Software Group | 2019 - Present
+- Led development of web applications
+- Improved user experience by 60%
+- Collaborated with cross-functional teams
+
+
+EDUCATION
+Bachelor of Science in Data Science, NYU, 2021

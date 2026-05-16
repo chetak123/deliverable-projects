@@ -1,0 +1,40 @@
+Oakley Harris
+Senior Backend Developer
+
+Email: oakley.harris@email.com | Phone: (555) 507-1293
+
+PROFESSIONAL SUMMARY
+Senior Backend Developer with 6+ years of experience in software development and technology solutions.
+Proven track record of delivering high-quality applications and driving innovation.
+
+TECHNICAL SKILLS
+- Languages: Python, Go, Java, TypeScript, Kotlin
+- Frameworks: Django, Flask, Spring Boot, Angular, Express
+- Databases: PostgreSQL, Redis, Cassandra, Elasticsearch
+- Cloud/DevOps: Google Cloud, Ansible, Azure, AWS
+- Tools: Confluence, Power BI, GitLab CI, Tableau
+
+PROFESSIONAL EXPERIENCE
+
+Senior Senior Backend Developer | Digital Solutions | 2022 - 2024
+- Led development of web applications
+- Improved scalability by 33%
+- Mentored 2 junior developers
+
+Senior Senior Backend Developer | StartUp Ventures | 2020 - Present
+- Led development of microservices
+- Improved user experience by 60%
+- Mentored 2 junior developers
+
+Senior Senior Backend Developer | Web Services LLC | 2015 - Present
+- Led development of data pipelines
+- Improved user experience by 40%
+- Mentored 6 junior developers
+
+
+EDUCATION
+Bachelor of Science in Data Science, University of Texas, 2018
+Master of Science in Information Technology, Columbia, 2014
+
+CERTIFICATIONS
+- Certified Kubernetes Administrator
