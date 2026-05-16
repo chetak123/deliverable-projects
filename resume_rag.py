@@ -343,7 +343,18 @@ class ResumeRAGSystem:
             combined_metadata['skills'] = json.dumps(combined_metadata.get('skills', []))
             combined_metadata['education'] = json.dumps(combined_metadata.get('education', []))
 
-            metadatas.append(combined_metadata)
+            # ChromaDB only accepts str, int, float, or bool — never None.
+            # Replace None with empty string / 0 for numeric fields.
+            sanitised = {}
+            for k, v in combined_metadata.items():
+                if v is None:
+                    sanitised[k] = "" if k not in ('experience_years', 'chunk_index') else 0
+                elif isinstance(v, (str, int, float, bool)):
+                    sanitised[k] = v
+                else:
+                    sanitised[k] = str(v)  # fallback: stringify anything else
+
+            metadatas.append(sanitised)
 
         # Generate embeddings in batch
         embeddings = self.embedding_model.encode(documents).tolist()

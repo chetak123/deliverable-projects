@@ -187,8 +187,11 @@ class JobMatcher:
                 if skill_lower in doc_lower or any(skill_lower in cs.lower() for cs in candidate_skills):
                     keyword_score += 1
 
-            # Combine semantic and keyword scores
-            semantic_score = 1 - (result['distance'] if result['distance'] else 0)
+            # Combine semantic and keyword scores.
+            # ChromaDB returns L2 distances (range 0..2 for unit-normed vectors).
+            # Normalise to [0,1]: distance=0 → score=1, distance=2 → score=0.
+            raw_dist = result['distance'] if result['distance'] is not None else 1.0
+            semantic_score = max(0.0, 1.0 - raw_dist / 2.0)
             result['keyword_score'] = keyword_score
             result['semantic_score'] = semantic_score
             result['hybrid_score'] = (semantic_score * 0.7) + (keyword_score * 0.3)

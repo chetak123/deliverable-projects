@@ -1,248 +1,255 @@
 """
-LLM File Assistant with Function Calling
-Integrates file system tools with LLM for natural language file operations.
+LLM File Assistant with Function Calling — Ollama Edition (Milestone 1 updated)
+
+Previously used Anthropic Claude via cloud API.
+Now uses Ollama (local model) via LangChain's ChatOllama.
+
+Why the change?
+  Anthropic requires an API key and sends your data to the cloud.
+  Ollama runs the model 100% locally — no key, no data leaving your machine.
+
+How tool calling works with Ollama:
+  1. We wrap each Python function as a LangChain @tool
+  2. We bind the tools to the LLM with llm.bind_tools(tools)
+  3. When the model wants to call a tool, it returns an AIMessage with
+     tool_calls=[...] instead of plain text
+  4. We detect that, execute the function, feed results back, and loop
+     until the model produces a plain text reply
 """
 
-import os
 import json
 from typing import List, Dict, Any
-from anthropic import Anthropic
-from fs_tools import TOOLS, TOOL_FUNCTIONS
+
+from langchain_ollama import ChatOllama
+from langchain_core.messages import HumanMessage, AIMessage, ToolMessage, SystemMessage
+from langchain_core.tools import tool as lc_tool
+
+# Import the raw Python functions from Milestone 1
+from fs_tools import (
+    read_file as _read_file,
+    list_files as _list_files,
+    write_file as _write_file,
+    search_in_file as _search_in_file,
+)
+
+# ── Wrap each function as a LangChain tool ───────────────────────────────────
+# @lc_tool turns a plain Python function into a Tool object that LangChain /
+# Ollama can call.  The docstring becomes the description the model reads to
+# decide WHEN to call the tool.
+
+@lc_tool
+def read_file(filepath: str) -> str:
+    """Read and extract text content from a resume file (PDF, TXT, DOCX).
+    Returns the file content along with metadata like filename and size."""
+    result = _read_file(filepath)
+    return json.dumps(result)
+
+@lc_tool
+def list_files(directory: str, extension: str = None) -> str:
+    """List all files in a directory, optionally filtered by extension
+    (e.g. '.pdf', '.txt'). Returns file names, sizes, and paths."""
+    result = _list_files(directory, extension)
+    return json.dumps(result)
+
+@lc_tool
+def write_file(filepath: str, content: str) -> str:
+    """Write text content to a file, creating parent directories if needed.
+    Returns success status and number of bytes written."""
+    result = _write_file(filepath, content)
+    return json.dumps(result)
+
+@lc_tool
+def search_in_file(filepath: str, keyword: str) -> str:
+    """Search for a keyword inside a file (case-insensitive).
+    Returns all matching lines with 2 lines of surrounding context."""
+    result = _search_in_file(filepath, keyword)
+    return json.dumps(result)
+
+# The list of tool objects the LLM will know about
+LC_TOOLS = [read_file, list_files, write_file, search_in_file]
+
+# Map tool name → callable (needed to execute tool calls we receive)
+TOOL_MAP = {t.name: t for t in LC_TOOLS}
 
 
 class LLMFileAssistant:
     """
-    Assistant that uses LLM with function calling to perform file operations.
+    File assistant powered by a local Ollama model with tool calling.
+
+    Architecture:
+      • ChatOllama  — the local LLM (qwen3-nothink by default)
+      • bind_tools  — attaches the 4 file tools to the LLM so it can call them
+      • message loop — we manually drive the tool-call → execute → continue loop
+        so we can print verbose output at each step
     """
-    
-    def __init__(self, api_key: str = None):
+
+    SYSTEM_PROMPT = (
+        "You are a helpful file assistant. You can read, list, write, and search "
+        "files on the local file system using the provided tools. "
+        "Always use the tools to fulfil the user's request — do not guess file "
+        "contents. Summarise your findings clearly after using the tools."
+    )
+
+    def __init__(self, model: str = "qwen3-nothink:latest",
+                 ollama_url: str = "http://localhost:11434"):
         """
-        Initialize the LLM File Assistant.
-        
+        Initialise the assistant.
+
         Args:
-            api_key: Anthropic API key (or set ANTHROPIC_API_KEY env var)
+            model:       Ollama model name (default: qwen3-nothink for speed)
+            ollama_url:  Ollama server URL (default: local)
         """
-        self.api_key = api_key or os.environ.get('ANTHROPIC_API_KEY')
-        if not self.api_key:
-            raise ValueError("API key must be provided or set in ANTHROPIC_API_KEY environment variable")
-        
-        self.client = Anthropic(api_key=self.api_key)
-        self.model = "claude-3-5-sonnet-20241022"
-        self.conversation_history = []
-        
-    def process_tool_call(self, tool_name: str, tool_input: Dict[str, Any]) -> Dict[str, Any]:
-        """
-        Execute a tool call and return the result.
-        
-        Args:
-            tool_name: Name of the tool to call
-            tool_input: Input parameters for the tool
-            
-        Returns:
-            dict: Result from the tool execution
-        """
-        if tool_name not in TOOL_FUNCTIONS:
-            return {
-                'success': False,
-                'error': f'Unknown tool: {tool_name}'
-            }
-        
-        tool_func = TOOL_FUNCTIONS[tool_name]
-        
-        try:
-            result = tool_func(**tool_input)
-            return result
-        except Exception as e:
-            return {
-                'success': False,
-                'error': f'Error executing {tool_name}: {str(e)}'
-            }
-    
+        # ChatOllama is LangChain's wrapper around the Ollama HTTP API.
+        # temperature=0 → deterministic outputs, good for tool calling.
+        self.llm = ChatOllama(
+            model=model,
+            base_url=ollama_url,
+            temperature=0,
+        )
+
+        # bind_tools tells the LLM the tool schemas so it can decide which
+        # tool to call and with what arguments.
+        self.llm_with_tools = self.llm.bind_tools(LC_TOOLS)
+
+        # Conversation history: a list of LangChain message objects.
+        # Each round we append the user message, any AI messages, any
+        # ToolMessages (results), and the final AI reply.
+        self.history: List = [SystemMessage(content=self.SYSTEM_PROMPT)]
+
+    # ── Tool execution ────────────────────────────────────────────────────────
+
+    def _execute_tool_call(self, tool_call: dict, verbose: bool) -> ToolMessage:
+        """Execute one tool call returned by the model and return a ToolMessage."""
+        name = tool_call["name"]
+        args = tool_call["args"]
+        call_id = tool_call["id"]
+
+        if verbose:
+            print(f"  🔧 Tool call: {name}({json.dumps(args, indent=6)})")
+
+        if name not in TOOL_MAP:
+            content = json.dumps({"success": False, "error": f"Unknown tool: {name}"})
+        else:
+            try:
+                content = TOOL_MAP[name].invoke(args)
+            except Exception as exc:
+                content = json.dumps({"success": False, "error": str(exc)})
+
+        if verbose:
+            # Trim long output so the terminal stays readable
+            preview = content if len(content) < 400 else content[:400] + " …"
+            print(f"  📤 Result: {preview}\n")
+
+        return ToolMessage(content=content, tool_call_id=call_id)
+
+    # ── Main chat method ──────────────────────────────────────────────────────
+
     def chat(self, user_message: str, verbose: bool = True) -> str:
         """
-        Send a message to the assistant and get a response.
-        
+        Send a message and return the assistant's reply.
+
+        The method drives the full tool-call loop:
+          1. Send current history to the LLM
+          2. If the LLM responds with tool_calls → execute them, append results
+          3. Repeat until the LLM produces a plain text reply
+          4. Return that final reply
+
         Args:
-            user_message: The user's message/query
-            verbose: Whether to print tool calls and results
-            
+            user_message: Natural language query from the user
+            verbose:      Print tool calls and results to stdout
         Returns:
-            str: The assistant's response
+            The assistant's final natural-language response
         """
-        # Add user message to history
-        self.conversation_history.append({
-            "role": "user",
-            "content": user_message
-        })
-        
+        self.history.append(HumanMessage(content=user_message))
+
         if verbose:
             print(f"\n{'='*60}")
-            print(f"User: {user_message}")
-            print(f"{'='*60}\n")
-        
-        # Make API call with tools
-        response = self.client.messages.create(
-            model=self.model,
-            max_tokens=4096,
-            tools=TOOLS,
-            messages=self.conversation_history
-        )
-        
-        # Process response and handle tool calls
-        while response.stop_reason == "tool_use":
-            # Extract tool uses from response
-            assistant_content = []
-            tool_results = []
-            
-            for block in response.content:
-                if block.type == "text":
-                    assistant_content.append(block)
-                    if verbose and block.text:
-                        print(f"Assistant: {block.text}\n")
-                        
-                elif block.type == "tool_use":
-                    assistant_content.append(block)
-                    tool_name = block.name
-                    tool_input = block.input
-                    
-                    if verbose:
-                        print(f"🔧 Calling tool: {tool_name}")
-                        print(f"   Input: {json.dumps(tool_input, indent=2)}")
-                    
-                    # Execute the tool
-                    result = self.process_tool_call(tool_name, tool_input)
-                    
-                    if verbose:
-                        print(f"   Result: {json.dumps(result, indent=2)}\n")
-                    
-                    # Add tool result
-                    tool_results.append({
-                        "type": "tool_result",
-                        "tool_use_id": block.id,
-                        "content": json.dumps(result)
-                    })
-            
-            # Add assistant message to history
-            self.conversation_history.append({
-                "role": "assistant",
-                "content": assistant_content
-            })
-            
-            # Add tool results to history
-            self.conversation_history.append({
-                "role": "user",
-                "content": tool_results
-            })
-            
-            # Continue the conversation
-            response = self.client.messages.create(
-                model=self.model,
-                max_tokens=4096,
-                tools=TOOLS,
-                messages=self.conversation_history
-            )
-        
-        # Extract final text response
-        final_response = ""
-        for block in response.content:
-            if block.type == "text":
-                final_response += block.text
-        
-        # Add final assistant message to history
-        self.conversation_history.append({
-            "role": "assistant",
-            "content": response.content
-        })
-        
+            print(f"👤 User: {user_message}")
+            print(f"{'='*60}")
+
+        # Tool-call loop — runs until the model stops calling tools
+        while True:
+            response: AIMessage = self.llm_with_tools.invoke(self.history)
+            self.history.append(response)
+
+            # If no tool calls → model produced its final answer
+            if not response.tool_calls:
+                break
+
+            if verbose:
+                print(f"\n🤖 Model wants to call {len(response.tool_calls)} tool(s):")
+
+            # Execute every tool the model requested in this round
+            for tc in response.tool_calls:
+                tool_msg = self._execute_tool_call(tc, verbose)
+                self.history.append(tool_msg)
+
+        # The final response content
+        final_text = response.content if isinstance(response.content, str) else ""
+
         if verbose:
-            print(f"Assistant: {final_response}")
-            print(f"\n{'='*60}\n")
-        
-        return final_response
-    
+            print(f"\n🤖 Assistant: {final_text}")
+            print(f"{'='*60}\n")
+
+        return final_text
+
     def reset_conversation(self):
-        """Reset the conversation history."""
-        self.conversation_history = []
+        """Clear conversation history (keeps system prompt)."""
+        self.history = [SystemMessage(content=self.SYSTEM_PROMPT)]
 
 
 def main():
-    """
-    Main function demonstrating the LLM File Assistant.
-    """
-    print("🤖 LLM File Assistant")
+    """Interactive CLI — powered by Ollama (no API key needed)."""
+    print("🤖 LLM File Assistant  (Ollama edition — 100% local)")
     print("=" * 60)
-    print("This assistant can help you with file operations using natural language.")
+    print("Model: qwen3-nothink:latest  |  No API key needed")
     print("\nExample queries:")
-    print("  - Read all resumes in the resumes folder")
-    print("  - Find resumes mentioning Python experience")
-    print("  - Create a summary file for resume_john_doe.pdf")
-    print("  - List all PDF files in the resumes directory")
-    print("\nType 'quit' or 'exit' to stop, 'reset' to clear conversation history.\n")
+    print("  • List all PDF files in the resumes folder")
+    print("  • Find resumes mentioning Python experience")
+    print("  • Read john_doe.txt and give me a brief summary")
+    print("  • Search for 'machine learning' across all resumes")
+    print("\nCommands: 'quit'/'exit' to stop  |  'reset' to clear history\n")
 
-    # Initialize assistant
-    try:
-        assistant = LLMFileAssistant()
-    except ValueError as e:
-        print(f"❌ Error: {e}")
-        print("\nPlease set your ANTHROPIC_API_KEY environment variable:")
-        print("  export ANTHROPIC_API_KEY='your-api-key-here'")
-        return
+    assistant = LLMFileAssistant()
 
-    # Interactive loop
     while True:
         try:
-            user_input = input("\nYou: ").strip()
-
+            user_input = input("You: ").strip()
             if not user_input:
                 continue
-
-            if user_input.lower() in ['quit', 'exit']:
+            if user_input.lower() in ("quit", "exit"):
                 print("\n👋 Goodbye!")
                 break
-
-            if user_input.lower() == 'reset':
+            if user_input.lower() == "reset":
                 assistant.reset_conversation()
-                print("🔄 Conversation history cleared.")
+                print("🔄 Conversation cleared.\n")
                 continue
-
-            # Process the query
-            response = assistant.chat(user_input, verbose=True)
-
+            assistant.chat(user_input, verbose=True)
         except KeyboardInterrupt:
             print("\n\n👋 Goodbye!")
             break
-        except Exception as e:
-            print(f"\n❌ Error: {e}")
+        except Exception as exc:
+            print(f"\n❌ Error: {exc}\n")
 
 
 def run_examples():
-    """
-    Run example queries to demonstrate capabilities.
-    """
-    print("🚀 Running Example Queries\n")
+    """Run pre-defined examples to demo capabilities."""
+    print("🚀 Running Example Queries  (Ollama edition)\n")
+    assistant = LLMFileAssistant()
 
-    try:
-        assistant = LLMFileAssistant()
-    except ValueError as e:
-        print(f"❌ Error: {e}")
-        print("\nPlease set your ANTHROPIC_API_KEY environment variable:")
-        print("  export ANTHROPIC_API_KEY='your-api-key-here'")
-        return
-
-    example_queries = [
+    examples = [
         "List all files in the resumes folder",
         "Read the first resume you find and give me a brief summary",
-        "Search for 'Python' in all resume files and tell me which ones mention it"
+        "Search for 'Python' in all resume files and tell me which ones mention it",
     ]
 
-    for i, query in enumerate(example_queries, 1):
+    for i, query in enumerate(examples, 1):
         print(f"\n{'#'*60}")
-        print(f"Example {i}/{len(example_queries)}")
+        print(f"Example {i}/{len(examples)}")
         print(f"{'#'*60}")
         assistant.chat(query, verbose=True)
-
-        if i < len(example_queries):
-            input("\nPress Enter to continue to next example...")
+        if i < len(examples):
+            input("\nPress Enter for next example...")
 
 
 if __name__ == "__main__":
